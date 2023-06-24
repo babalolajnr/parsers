@@ -1,5 +1,5 @@
-pub mod http_parser;
-pub mod json_parser;
+pub mod http;
+pub mod json;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
