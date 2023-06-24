@@ -1,5 +1,6 @@
 pub mod http;
 pub mod json;
+pub mod yaml;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
